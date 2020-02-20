@@ -19,6 +19,6 @@
     </bean>
     <!--加载映射文件-->
     <bean id = "MapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com/dbh123/mapper"></property>
+        <property name="basePackage" value="com.dbh123.mapper"></property>
     </bean>
 </beans>
